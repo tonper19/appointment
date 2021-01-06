@@ -81,6 +81,7 @@ THIRD_PARTY_APPS = [
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
+    "phonenumber_field",  # 20210106 https://github.com/stefanfoulis/django-phonenumber-field
 ]
 
 LOCAL_APPS = [
@@ -291,3 +292,4 @@ SOCIALACCOUNT_ADAPTER = (
 
 # Your stuff...
 # ------------------------------------------------------------------------------
+PHONENUMBER_DB_FORMAT = "E164"
